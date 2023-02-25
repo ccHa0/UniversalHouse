@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
+			<item value="C:\UniversalHouse\Hibernate_web"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="C:\Users\thpss\Desktop\UniversalHouse_final\UniversalHouse.zip"/>
+			<item value="C:\Users\thpss\Desktop\topic_final.zip"/>
+			<item value="C:\Users\thpss\Desktop\topic20213.zip"/>
+			<item value="C:\Users\thpss\Desktop\230213-21.zip"/>
+			<item value="C:\Users\thpss\Desktop\230210-22.zip"/>
+			<item value="C:\Users\thpss\Desktop\230209-20.zip"/>
+			<item value="C:\Users\thpss\Desktop\230208-20.zip"/>
+			<item value="C:\Users\thpss\Desktop\230207-20.zip"/>
+			<item value="C:\Users\thpss\Desktop\230203-20.zip"/>
+			<item value="C:\Users\thpss\Desktop\230131-20.zip"/>
+			<item value="C:\Users\thpss\Desktop\230118-16.zip"/>
+			<item value="C:\Users\thpss\Desktop\230115-17.zip"/>
+			<item value="C:\Users\thpss\Desktop\230113-18.zip"/>
+			<item value="C:\Users\thpss\Desktop\230112-20.zip"/>
+			<item value="C:\Users\thpss\Desktop\230108-17.zip"/>
+			<item value="C:\Users\thpss\Desktop\topic20230107.zip"/>
+			<item value="C:\Users\thpss\Desktop\230107-17.zip"/>
+			<item value="C:\Users\thpss\Desktop\dasdsad.zip"/>
+			<item value="C:\Users\thpss\Desktop\230105-20.zip"/>
+			<item value="C:\Users\thpss\Desktop\SpringTopic2.zip"/>
+		</list>
+	</section>
+	<section name="org.eclipse.text.quicksearch.internal.ui.QuickSearchDialog.DIALOG_SETTINGS">
+		<item key="LAST_QUERY" value="findAll"/>
+		<item key="PATH_FILTER" value=""/>
+		<item key="CASE_SENSITIVE" value="true"/>
+		<item key="KEEP_OPEN" value="false"/>
+		<list key="COLUMN_WIDTHS">
+			<item value="40"/>
+			<item value="400"/>
+			<item value="103"/>
+		</list>
+		<list key="SASH_WEIGHTS">
+			<item value="714"/>
+			<item value="285"/>
+		</list>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_X_ORIGIN" value="668"/>
+			<item key="DIALOG_Y_ORIGIN" value="215"/>
+			<item key="DIALOG_FONT_NAME" value="1|Microsoft JhengHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft JhengHei UI"/>
+		</section>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="170"/>
+		<item key="DIALOG_Y_ORIGIN" value="356"/>
+	</section>
+</section>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ExternalProject"/>
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\thpss\Desktop\230214-02.zip"/>
+			<item value="C:\Users\thpss\Desktop\230214-24.zip"/>
+			<item value="C:\Users\thpss\Desktop\230213-02.zip"/>
+			<item value="C:\Users\thpss\Desktop\230211-23.zip"/>
+			<item value="C:\Users\thpss\Desktop\230210-02.zip"/>
+			<item value="C:\Users\thpss\Desktop\230209-02.zip"/>
+			<item value="C:\Users\thpss\Desktop\230207-02.zip"/>
+			<item value="C:\Users\thpss\Desktop\230201-01.zip"/>
+			<item value="C:\Users\thpss\Desktop\230129-23.zip"/>
+			<item value="C:\Users\thpss\Desktop\230127-22.zip"/>
+			<item value="C:\Users\thpss\Desktop\230123-14.zip"/>
+			<item value="C:\Users\thpss\Desktop\230114-23.zip"/>
+			<item value="C:\Users\thpss\Desktop\UniversalHouse_SpringMVC_final.zip"/>
+			<item value="C:\Users\thpss\Desktop\23113-12.zip"/>
+			<item value="C:\Users\thpss\Desktop\230113-24.zip"/>
+			<item value="C:\Users\thpss\Desktop\230110-02.zip"/>
+			<item value="C:\Users\thpss\Desktop\230108-24.zip"/>
+			<item value="C:\Users\thpss\Desktop\230107-02.zip"/>
+			<item value="C:\Users\thpss\Desktop\230105-24.zip"/>
+		</list>
+	</section>
+</section>
