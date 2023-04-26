@@ -12,12 +12,12 @@ import org.springframework.transaction.annotation.Transactional;
 import tw.member.model.Member;
 
 @Service
-@Transactional
 public class ArticleService {
 
 	@Autowired
 	private ArticleRepository aRepo;
 
+	@Transactional
 	public Article save(Article article, Member member) {
 
 		List<Article> articleList = new ArrayList<Article>();
@@ -29,6 +29,7 @@ public class ArticleService {
 
 	}
 
+	@Transactional
 	public void deleteById(Article article) {
 
 		Member member = article.getMember();
@@ -37,6 +38,7 @@ public class ArticleService {
 		aRepo.deleteById(article.getArticleId());
 	}
 
+	@Transactional
 	public Article updateById(Article article) {
 
 		article.setMember(article.getMember());
@@ -49,8 +51,7 @@ public class ArticleService {
 	}
 
 	public Article findById(Integer articleId) {
-		Article article = aRepo.findById(articleId).get();
-		return article;
+		return aRepo.findById(articleId).get();
 	}
 
 	public Page<Article> findByPublic(Pageable pageable) {

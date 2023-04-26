@@ -10,4 +10,17 @@
 		<item key="x" value="720"/>
 		<item key="y" value="176"/>
 	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="test"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="test"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
 </section>

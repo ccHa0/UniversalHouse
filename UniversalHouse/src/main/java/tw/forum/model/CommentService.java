@@ -8,12 +8,12 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 @Service
-@Transactional
 public class CommentService {
 
 	@Autowired
 	private CommentRepository cRepo;
 
+	@Transactional
 	public Comment save(Comment comment, Article article) {
 
 		List<Comment> comments = new ArrayList<Comment>();
@@ -26,6 +26,7 @@ public class CommentService {
 		return cRepo.save(comment);
 	}
 	
+	@Transactional
 	public Comment updateById(Comment comment) {
 		return cRepo.save(comment);
 	}

@@ -7,7 +7,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 @Service
-@Transactional
 public class StatusService {
 
 	@Autowired
@@ -19,6 +18,7 @@ public class StatusService {
 
 	}
 
+	@Transactional
 	public Status update(Status status) {
 
 		return sRepo.save(status);
@@ -31,6 +31,7 @@ public class StatusService {
 
 	}
 
+	@Transactional
 	public void deleteById(Integer statusId) {
 
 		sRepo.deleteById(statusId);
