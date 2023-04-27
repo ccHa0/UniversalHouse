@@ -1,9 +1,16 @@
-此項專案為我與其他組員共同開發，我負責開發的部分是論壇平台的部分，以Eclipse與JAVA EE，使用Spring Boot + JSP開發，JPA 使用 SpringData JPA，資料庫為SQL SERVER，並運行在本機。
+此項專案為建置網頁平台-萬師屋接/發案網，我與其他5位成員於共同開發。其中我負責的部分是論壇平台，以Eclipse與JavaEE，使用Spring Boot框架，JPA 部分為 SpringData JPA，並運行在本機。
 我撰寫的程式如下路徑 :
-1. tw.forum.*
-2. WEB-INF/forum/*
+  1. src/main/java/tw.forum.*，架構使用MVC，分為Model與Controller，Model再細分Repository、Service與Component/Entity。
+  2. WEB-INF/forum/*，前端運用JavaScript、jQuery與Ajax配合JSP的Expression Language語法。
 
-而資料庫有三個，彼此間使用Hibernate定義實體類之間的關係，分別如下 :
-1.Article : 文章CRUD，一對多Comment、Status
-2.Comment : 留言CRUD，多對一Article
-3.Status : 確認使用者與文章的狀態(我的最愛、評價、檢舉......)，多對一Article
+資料庫為MS SQL Server使用T-SQL，建置有三，彼此以Hibernate定義實體類之間關聯 :
+  1. Article : PK為articleId(Identity)，文章CRUD，FK為memberPk，OneToMany Comment、Status，ManyToOne Member(會員)
+  2. Comment : PK為commentId(Identity)，留言CRUD，FK為articleId，ManyToOne Article
+  3. Status  : PK為statusId(Identity)，UQ為memberPk，確認使用者與文章的狀態(我的最愛、評價、檢舉......)，FK為articleId，ManyToOne Article
+
+另外運用到框架與套件 : 
+  1.BootStrap / icons : 版面配置、圖形美化。
+  2.DataTables : 表格美化。
+  3.CKEditor 5 : 文章內容編輯。
+  4.SweetAlert : 使用者互動。
+  5.Line it! : 分享。
