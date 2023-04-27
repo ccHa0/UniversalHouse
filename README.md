@@ -10,7 +10,7 @@
 
 另外運用到框架與套件 : 
   1.BootStrap / icons : 版面配置、圖形美化。
-  2.DataTables : 表格美化。
+  2.DataTables : 表格快速製作。
   3.CKEditor 5 : 文章內容編輯。
   4.SweetAlert : 使用者互動。
   5.Line it! : 分享。
