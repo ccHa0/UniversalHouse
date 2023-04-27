@@ -4,9 +4,9 @@
   2. WEB-INF/forum/*，前端運用JavaScript、jQuery與Ajax配合JSP的Expression Language語法。
 
 資料庫為MS SQL Server使用T-SQL，建置有三，彼此以Hibernate定義實體類之間關聯 :
-  1. Article : PK為articleId(Identity)，文章CRUD，FK為memberPk，OneToMany Comment、Status，ManyToOne Member(會員)
-  2. Comment : PK為commentId(Identity)，留言CRUD，FK為articleId，ManyToOne Article
-  3. Status  : PK為statusId(Identity)，UQ為memberPk，確認使用者與文章的狀態(我的最愛、評價、檢舉......)，FK為articleId，ManyToOne Article
+  1. Article : PK為articleId(Identity)，文章CRUD
+  2. Comment : PK為commentId(Identity)，留言CRUD
+  3. Status  : PK為statusId(Identity)，UQ為memberPk，確認使用者與文章的狀態(我的最愛、評價、檢舉......)
 
 另外運用到框架與套件 : 
   1.BootStrap / icons : 版面配置、圖形美化。
