@@ -9,8 +9,8 @@
   3. Status  : PK為statusId(Identity)，UQ為memberPk，確認使用者與文章的狀態(我的最愛、評價、檢舉......)
 
 另外運用到框架與套件 : 
-  1.BootStrap / icons : 版面配置、圖形美化。
-  2.DataTables : 表格快速製作。
-  3.CKEditor 5 : 文章內容編輯。
-  4.SweetAlert : 使用者互動。
-  5.Line it! : 分享。
+  1. BootStrap / icons : 版面配置、圖形美化。
+  2. DataTables : 表格快速製作。
+  3. CKEditor 5 : 文章內容編輯。
+  4. SweetAlert : 使用者互動。
+  5. Line it! : 分享。
