@@ -1,7 +1,7 @@
 此項專案為建置網頁平台-「萬事屋」，一個提供使用者接、發案的平台，我與其他5位成員於共同開發。其中我負責的部分是論壇平台，以Eclipse與JavaEE + JDK11，使用Spring Boot與SpringData JPA，並運行在本機。
 我撰寫的程式如下路徑 :
   1. src/main/java/tw.forum.*，架構使用MVC，分為Model與Controller，Model再細分Repository、Service與Component/Entity。
-  2. WEB-INF/forum/*，前端運用JavaScript、jQuery與Ajax配合JSP的Expression Language語法。
+  2. WEB-INF/forum/*，前端運用JavaScript、jQuery與Ajax配合JSP(EL)。
 
 資料庫為MS SQL Server使用T-SQL，建置有三，彼此以Hibernate定義實體類之間關聯 :
   1. Article : PK為articleId(Identity)，文章CRUD
